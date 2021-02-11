@@ -1,5 +1,7 @@
 import React from 'react'
 import Img from '../../../assets/img/da.png' 
+import './Application.css'
+
 
 function Application(){
     return (

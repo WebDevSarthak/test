@@ -1,4 +1,5 @@
 import React from 'react'
+import { withPrefix, Link } from "gatsby"
 import Logo from '../../../assets/img/logo.png'
 import './Header.css'
 import HeaderMenu from './HeaderMenu'
@@ -28,20 +29,26 @@ function Header(props) {
                                     {/* <!--menu start--> */}
                                     <ul id="menu">
                                         <li class="nav-item">
-                                            <a href="/#" class={props.class}>Home</a>
+                                            <a href="/#" class="nav-link active">Home</a>
                                         </li>
+                                        
                                         <li class="nav-item">
-                                            <a href="development-application.html" class="nav-link">Development Applications</a>
+                                            <a href="development-application.html" class="nav-link"><Link to="/Development/" activeClassName="active">Development Application</Link></a>
                                         </li>
-                                        <li class="nav-item">
+                                        
+                                        <HeaderMenu href="/#" class="nav-link" text="Subdivisions" />
+                                        <HeaderMenu href="/#" class="nav-link" text="Rezonings" />
+                                        <HeaderMenu href="/#" class="nav-link" text="Contact" />
+                                        {/* <li class="nav-item">
                                             <a href="/#" class="nav-link">Subdivisions</a>
                                         </li>
+
                                         <li class="nav-item">
                                             <a href="/#" class="nav-link">Rezonings</a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="/#" class="nav-link">Contact</a>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                     <h2 class="d-none d-lg-block"><a href="tel:1300438232">1300 438 232 (24 hours)</a></h2>
                                 </div>
@@ -105,4 +112,4 @@ export default Header
 //                 </div>
 //             </div>
 //         </div>
-//     </header>
+//     </header> 

@@ -14,13 +14,15 @@ import Development from '../components/Development'
 
 const IndexPage = () => (
   <Layout>
-    {/* <Development /> */}
+    
     <Helmet>
         <script src={withPrefix('script.js')} type="text/javascript" />
     </Helmet>
     <Home />
     
-    <Link to="/page-2/">Go to page 2</Link>
+    
+    {/* <Development /> */}
+    {/* <Link to="/page-2/">Go to page 2</Link> */}
     {/* <SEO title="Home" />
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>

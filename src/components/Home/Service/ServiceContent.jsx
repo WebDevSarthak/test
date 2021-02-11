@@ -1,8 +1,8 @@
 import React from 'react'
 
-function ServiceContent({props, children}){
+function ServiceContent(props){
     console.log(props)
-    console.log(children)
+    // console.log(children)
     return(
         // <div class="content">
         //     <p class="mt_20">Precise Planning understands that success stems from well-established relationships with investors, consultants, government agencies, and landowners. Collaboration, partnership, and relationship are paramount to our approach in project management.</p>
