@@ -13,7 +13,9 @@ function ContactAreaBox(props) {
         
     )
 }
+
 export default ContactAreaBox
+
 // <div className="col-lg-3 col-md-4 mt_30 text-center">
 //     <a href="tel:1300438232"><i className="fas fa-phone"></i></a>
 //     <h3><a href="tel:1300438232">via Phone</a></h3>

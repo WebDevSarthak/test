@@ -1,8 +1,10 @@
 import React from 'react'
+import './ContentArea.css'
+import ContentAreaBox from './ContentAreaBox'
 
 
 function ContentArea() {
-    
+
     return (
         <div>
             <div class="content_area">
@@ -19,50 +21,50 @@ function ContentArea() {
                                 <div class="title w-50 mt_20"></div>
                                 <h4 class="theme_color mt_20">We manage the entire <br /> development application process </h4>
 
-                                    <p class="mt_40"><strong>Specialist Studies</strong></p>
-                                    <p class="light_text">An essential part of the development application includes commissioning relevant experts to explain the social, economic, and ecological impacts of the proposed development. Precise Planning has long-standing relationships with some of the best specialist consultants allowing us a unique position to organise everything needed for your application.</p>
+                                <p class="mt_40"><strong>Specialist Studies</strong></p>
+                                <p class="light_text">An essential part of the development application includes commissioning relevant experts to explain the social, economic, and ecological impacts of the proposed development. Precise Planning has long-standing relationships with some of the best specialist consultants allowing us a unique position to organise everything needed for your application.</p>
 
-                                    <p class="mt_40"><strong>The Planning Report</strong></p>
-                                    <p class="light_text">The planning report is the foundation of any development application. The purpose of this report is to explain the proposed development and its impacts, compile the findings of all specialist studies, and ensure legislative and DCP compliance. The planning report for a development application includes either:</p>
+                                <p class="mt_40"><strong>The Planning Report</strong></p>
+                                <p class="light_text">The planning report is the foundation of any development application. The purpose of this report is to explain the proposed development and its impacts, compile the findings of all specialist studies, and ensure legislative and DCP compliance. The planning report for a development application includes either:</p>
 
-                                    <ul>
-                                        <li><p class="light_text">the <span class="grey_text">Statement of Environmental Effects (SEE)</span>, or </p></li>
-                                        <li><p class="light_text">the Environmental Impact Statement </p></li>
-                                    </ul>
-                                    <p class="mt_30 light_text">If there is any potential impermissibility, we will identify and address these issues. Ensuring quality work in the initial stages of development helps minimise the likelihood of issues in the future.</p>
+                                <ul>
+                                    <li><p class="light_text">the <span class="grey_text">Statement of Environmental Effects (SEE)</span>, or </p></li>
+                                    <li><p class="light_text">the Environmental Impact Statement </p></li>
+                                </ul>
+                                <p class="mt_30 light_text">If there is any potential impermissibility, we will identify and address these issues. Ensuring quality work in the initial stages of development helps minimise the likelihood of issues in the future.</p>
 
-                                    <p class="mt_40"><strong>Government Liaisons</strong></p>
-                                    
-                                    <p class="light_text">As Town Planners, we deal with Local Councils, State Governments and other government agencies every single day. Precise Planning will ensure your application has the highest likelihood of approval by providing ongoing, effective communication with the relevant authorities.</p>
+                                <p class="mt_40"><strong>Government Liaisons</strong></p>
 
-                                    <p class="mt_40"><strong>Our Specialities</strong></p>
-                                    <ul>
-                                        <li>
-                                            <p class="light_text">Industrial</p>
-                                        </li>
-                                        <li>
-                                            <p class="light_text">Commercial</p>
-                                        </li>
-                                        <li>
-                                            <p class="light_text">Residential</p>
-                                        </li>
-                                        <li>
-                                            <p class="light_text">Subdivisions </p>
-                                        </li>
-                                        <li>
-                                            <p class="light_text">Poultry Farms </p>
-                                        </li>
-                                        <li>
-                                            <p class="light_text">Logistics Depots </p>
-                                        </li>
-                                        <li>
-                                            <p class="light_text">Agricultural Developments</p>
-                                        </li>
-                                        <li>
-                                            <p class="light_text">Tourist Facilities</p>
-                                        </li>
-                                    </ul>
-                                    <p class="mt_30 light_text">Precise Planning is excited to help you with your next development. With some of the most experienced town planners in Sydney, your development is in good hands.</p>
+                                <p class="light_text">As Town Planners, we deal with Local Councils, State Governments and other government agencies every single day. Precise Planning will ensure your application has the highest likelihood of approval by providing ongoing, effective communication with the relevant authorities.</p>
+
+                                <p class="mt_40"><strong>Our Specialities</strong></p>
+                                <ul>
+                                    <li>
+                                        <p class="light_text">Industrial</p>
+                                    </li>
+                                    <li>
+                                        <p class="light_text">Commercial</p>
+                                    </li>
+                                    <li>
+                                        <p class="light_text">Residential</p>
+                                    </li>
+                                    <li>
+                                        <p class="light_text">Subdivisions </p>
+                                    </li>
+                                    <li>
+                                        <p class="light_text">Poultry Farms </p>
+                                    </li>
+                                    <li>
+                                        <p class="light_text">Logistics Depots </p>
+                                    </li>
+                                    <li>
+                                        <p class="light_text">Agricultural Developments</p>
+                                    </li>
+                                    <li>
+                                        <p class="light_text">Tourist Facilities</p>
+                                    </li>
+                                </ul>
+                                <p class="mt_30 light_text">Precise Planning is excited to help you with your next development. With some of the most experienced town planners in Sydney, your development is in good hands.</p>
                             </div>
                         </div>
                     </div>
@@ -70,7 +72,7 @@ function ContentArea() {
             </div>
         </div>
     )
-}        
+}
 
 
 export default ContentArea

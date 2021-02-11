@@ -12,19 +12,21 @@ import PracticeArea from '../components/Home/PracticeArea/PracticeArea'
 import Footer from '../components/Home/Footer/Footer'
 //////////////////////////////// 
 import '../components/responsive.css'
+///////////////////////
+import Layout from "../components/layout"
 
 function Development(){
     return (
-        <div>
-            <Header />
-            <HomeArea />
-            <Application />
-            <ContactArea />
-            <ContentArea />
-            <ContactForm />
-            <PracticeArea />
-            <Footer />
-        </div>   
+        <Layout>
+                <Header />
+                <HomeArea />
+                <Application />
+                <ContactArea />
+                <ContentArea />
+                <ContactForm />
+                <PracticeArea />
+                <Footer />
+        </Layout>       
     )
 }
 
